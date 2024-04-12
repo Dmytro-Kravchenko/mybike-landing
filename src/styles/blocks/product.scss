@@ -1,0 +1,28 @@
+.product {
+  &__photo {
+    margin-bottom: 32px;
+    width: 100%;
+    transition: transform 150ms;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__title {
+    margin: 0 0 8px;
+    font-size: 24px;
+    line-height: 140%;
+  }
+
+  &__description {
+    margin: 0 0 16px;
+  }
+
+  &__price {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+}
